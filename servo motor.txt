@@ -1,0 +1,31 @@
+
+
+
+
+
+
+objective- to implement use of servo  motor as industrial gas and robotics system with of help of 
+
+
+
+the programmig language of embedded c is c is four different angle 0,45,90,180 degree the following sourece file is being implement
+
+#include <servo.h>
+servo motor
+void setup(){
+servo motor.attach(9);
+}
+void loop(){
+servo motor.write(0);
+delay(1000);
+servo motor.write(45);
+delay(1000);
+servo motor.write(90);
+delay(1000);
+servo motor.write(180);
+delay(1000);
+} 
+
+data-yellow,orrange
+gnd-brown
+power-power Vcc
